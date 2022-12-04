@@ -1,0 +1,159 @@
+@media ( max-width: 1024px ) {
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+        &__icons {
+            width: 380px;
+        }
+    }
+    .benefits {
+        &__item {
+            width: 200px;
+        }
+    }
+}
+
+@media ( max-width: 768px ) {
+    .container {
+        max-width: 520px;
+    }  
+    .header {
+        &__logo {
+            width: 160px;
+        }
+        &__phone {
+            display: none;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 14px;
+            }
+        }
+    } 
+    .promo {      
+        &__wrapper {
+            align-items: center;
+        }
+        &__icon {
+            width: 126px;
+        }
+    }
+    .benefits {
+        &__items {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0px;
+        }
+        &__item {
+            width: 360px;
+            margin-top: 40px;
+        }
+        &__header {
+            margin-top: 20px;
+            font-size: 22px;
+        }
+        &__desc {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}
+
+@media ( max-width: 576px ) {
+    .container {
+        max-width: 380px;
+    }  
+    .header {
+        &__official {
+            display: none;
+        }
+        &__logo {
+            width: 180px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    } 
+    .promo {      
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 18px;
+            margin-top: 6px;
+        }
+        &__icons {
+            width: 320px;
+        }
+        &__icon {
+            width: 126px;
+        }
+    }
+}
+
+@media ( max-width: 426px ) {
+    .container {
+        max-width: 300px;
+    }  
+    .header {
+        flex-direction: column;
+        button {
+            display: none;
+        }
+        &__official {
+            display: none;
+        }
+        &__logo {
+            width: 180px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    } 
+    .promo {   
+        text-align: center;   
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__subheader {
+            font-size: 14px;
+            margin-top: 2px;
+        }
+        &__icons {
+            width: 300px;
+        }
+        &__icon {
+            width: 100px;
+            font-size: 12px;
+            img {
+                margin-bottom: 16px;
+            }
+        }
+        .button_main {
+            width: 270px;
+            margin-top: 80px;
+        }
+    }
+    .benefits {
+        &__item {
+            width: 260px;
+        }
+        &__header {
+            font-size: 20px;
+        }
+    }
+}
