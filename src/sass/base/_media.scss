@@ -18,6 +18,18 @@
             width: 200px;
         }
     }
+    .slider {
+        .container {
+            margin: 0 auto;
+        }
+        &__inner {
+            max-width: 100%;
+            }
+            img {
+                display: block;
+                width: 100%;
+        }
+    }
 }
 
 @media ( max-width: 768px ) {
