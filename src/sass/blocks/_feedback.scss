@@ -1,0 +1,37 @@
+.feedback {
+    &__wrapper {
+        margin-top: 60px;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 60px;
+    }
+    &__img {
+        width: 169px;
+        margin-right: 60px;
+        img {
+            width: 100%;
+        }
+    }
+    &__desc {
+        width: 680px;
+        span {
+            display: block;
+            margin-top: 8px;
+        }
+
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+        margin-bottom: 3px;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+}
