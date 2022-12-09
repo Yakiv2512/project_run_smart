@@ -42,6 +42,13 @@
             width: 400px;
         }
     }
+    .footer {  
+        &__info {
+            position: relative;
+            width: 100%;
+            height: 270px;
+        }
+    }
 }
  
 
@@ -172,6 +179,19 @@
         &__tab {
             margin-bottom: 10px;
         }
+    }
+    .footer {
+        &__info {
+            height: 340px;
+        }
+    }
+    .modal {
+        width: 360px;
+        padding: 40px 30px 30px 30px;
+    &__close {
+        top: 12px;
+        right: 16px;
+        } 
     }
 }
 
