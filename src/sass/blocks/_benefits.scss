@@ -16,6 +16,12 @@
         img {
             width: 100%;
         }
+        &-animated {
+            animation: heartbeat 1.5s ease infinite paused;
+            &:hover {
+                animation-play-state: running;
+            }
+        }
     }
     &__header {
         font-weight: 700;

@@ -12,7 +12,7 @@
 </head>
 <body>
     
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -47,7 +47,7 @@
                 <button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
                 <div class="promo__link">
                     или
-                    <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+                    <a href="#catalog">ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="benefits__item">
                     <div class="benefits__img">
-                        <img src="icons/benefits/heart.png" alt="heart">
+                        <img class="benefits__img-animated" src="icons/benefits/heart.png" alt="heart">
                     </div>
                     <div class="benefits__header">
                         Заботимся о здоровье
@@ -134,7 +134,7 @@
     </section>
 
     <section class="catalog">
-        <div class="container">
+        <div id="catalog" class="container">
             <h2 class="title">Каталог пульсометров</h2>
             <ul class="catalog__tabs">
                 <li class="catalog__tab catalog__tab_active">
@@ -672,6 +672,12 @@
             </div>
         </div>
     </div>
+
+    <a href="#up" class="pageup">
+        <img src="icons/circle-chevron-up-solid.svg" alt="Up">
+    </a>
+
+    
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
