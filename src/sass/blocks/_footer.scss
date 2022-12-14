@@ -1,6 +1,11 @@
 .footer {
     height: 630px;
     position: relative;
+    &__map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     &__info {
         position: absolute;
         top: 0;
